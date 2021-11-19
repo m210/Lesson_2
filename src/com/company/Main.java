@@ -111,5 +111,41 @@ public class Main {
         System.out.println("Годовой доход Кристины возрос на " + kristinasDifference + " руб.");
 
         System.err.println("Итог: Ну как бы у всех годовой доход возрос на 10%, все верно :))");
+
+        System.out.println("\n\nЗадачи повышеной сложности :)");
+        // Task 6
+        {
+            int a = 12;
+            int b = 27;
+            int c = 44;
+            int d = 15;
+            int e = 9;
+
+            int result = a * (b + (c - d) * e);
+            result = -result;
+
+            System.out.println("Result = " + result);
+        }
+
+        // Task 7
+        {
+            int a = 5;
+            int b = 7;
+
+            a = a + b;
+            b = a - b;
+            a = a - b;
+
+            System.out.println("a = " + a + ", b = " + b);
+        }
+
+        // Task 8
+        {
+            int a = 120;
+            int b = a / 10;
+            b = b % 10;
+
+            System.out.println("Result is " + b);
+        }
     }
 }
