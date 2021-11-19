@@ -110,7 +110,7 @@ public class Main {
         System.out.println("Годовой доход Дениса возрос на " + denisesDifference + " руб.");
         System.out.println("Годовой доход Кристины возрос на " + kristinasDifference + " руб.");
 
-        System.err.println("Итог: Ну как бы у всех годовой доход возрос на 10%, все верно :))");
+        System.out.println("Итог: Ну как бы у всех годовой доход возрос на 10%, все верно :))");
 
         System.out.println("\n\nЗадачи повышеной сложности :)");
         // Task 6
